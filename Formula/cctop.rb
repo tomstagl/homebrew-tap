@@ -2,26 +2,26 @@
 class Cctop < Formula
   desc "btop-style live dashboard for Claude Code internals, in a pane beside your session"
   homepage "https://github.com/tomstagl/cctop"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tomstagl/cctop/releases/download/v0.1.1/cctop-0.1.1-aarch64-apple-darwin.tar.gz"
-      sha256 "ee3ccd00d48c60654a815d6ea60a836866ece4d698a281f1646a49742d798d61"
+      url "https://github.com/tomstagl/cctop/releases/download/v0.2.0/cctop-0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "179b3b89534cee981ee295d4bdf8dc4b1a6e1178a64b6579bb3d0a542286b6ae"
     else
-      url "https://github.com/tomstagl/cctop/releases/download/v0.1.1/cctop-0.1.1-x86_64-apple-darwin.tar.gz"
-      sha256 "2b28861f108ccdc76b8e3c1b8ef9c72b0b51117f1130e672c2ee22d3f33db4a0"
+      url "https://github.com/tomstagl/cctop/releases/download/v0.2.0/cctop-0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "fed1d59008843c30cfb65f3bd510cc446225ca335a8312b66eabd82eebdcfce1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tomstagl/cctop/releases/download/v0.1.1/cctop-0.1.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3dc6baecddb91600e26874c0c6115f2d3a3edb002a05d59190cf88a35006f242"
+      url "https://github.com/tomstagl/cctop/releases/download/v0.2.0/cctop-0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b44112ed2f211b58b3acd6085ad1bf3c68320ef07e40dce20e9d8e6d9b6f62fd"
     else
-      url "https://github.com/tomstagl/cctop/releases/download/v0.1.1/cctop-0.1.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0fe5be7f0ea669e32e43c0b6e4ed38f48dad04255c327ecdbead41310fef21bc"
+      url "https://github.com/tomstagl/cctop/releases/download/v0.2.0/cctop-0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d300a4ace047d4a5e720b64c470cd919b78196376a6aaf47b377382a040ecb6"
     end
   end
 
